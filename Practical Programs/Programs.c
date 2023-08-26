@@ -8,7 +8,7 @@ void main()
       int choice, a1, b1, c1, peri_t, s, area_t, len, breath, area_r, peri_r, num1, num2, num3, mark, num, i, count, rem, rev, onum, sum, original_num, n1, n2, next, limit, fact, n, row, col, res, j, num_1[5], table[3][3], a[3][3], b[3][3], m[3][3], r, c, k, a2[5], temp;
       int no_1, no_2;
       // display
-      printf("\n*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*ALL C PROGRAM FIRST YEAR*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*\n");
+      printf("\n*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^* ALL C PROGRAM FIRST YEAR *^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*\n");
 
       printf("\n----------First Semester----------");
       printf("\n*******************************************************************");
@@ -22,7 +22,7 @@ void main()
 
       // input from user
       printf("\nEnter your choice");
-      scanf("%d", &choice);
+      scanf("%d",&choice);
 
       switch (choice)
       {
@@ -417,6 +417,6 @@ void main()
 
             break;
       default:
-            printf("\nInvalid input");
+            printf("\nInvalid input : Please Enter Valid Input");
       }
 }
